@@ -1,7 +1,7 @@
 FROM node:carbon
 
 # Diretorio de exec. da aplicacao
-WORKDIR /usr/src/app
+WORKDIR /home/node-app
 
 # Copiando dependencias
 COPY package.json ./
